@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <!-- رابط الخط من Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+     
+  
+  <!-- عملت Class عشان اسجل فيه بيانات الصورة الخلفية   -->
+  <style>
+      .background{
+           position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/BackgroundPhote.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.75; /* لتخفيف الصورة فقط */
+    z-index: -1;   /* يخلي الصورة في الخلفية */
+          
+      }
+  
+  </style>
+  
+  
+  
+        
+    </head >
+    	<body>
+            <div class="background"> </div>
+            
+            <!-- page title-->
+            <div style="text-align: center;">
+			<font color= red  size=12 face="Times New Romans">ADD NorthWind Employee </font> <br>
+            </div>
+            
+            
+            <!-- Line-->
+            <hr color= green ><br>
+			
+
+<font size=6>
+<form action="NewServlet" method="get">
+    
+    
+    			
+<!-- Table content-->
+<font color="##3e4e30" size=6 face="Roboto">
+                        <table border="0" width ="75%" align="center" >
+                        
+                            <!-- comment :18rows * 2colomns-->
+                            <!-- Employee ID Row -->
+                                <tr bgcolor="" >
+                                    <th style="text-align: left " >ID</th>
+                                    <td><input type="password" name="employeeId" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee First Name Row -->
+                                 <tr bgcolor="">
+                                    <th style="text-align: left " >First Name</th>
+                                    <td><input type="text" name="employeeFirstName" value="" size="50"/></td>
+                                </tr>
+                                 
+                                <!-- Employee Second Name Row -->
+                                 <tr bgcolor="">
+                                    <th style="text-align: left " >Second Name</th>
+                                    <td><input type="text" name="employeeSecondName" value="" size="50"/></td>
+                                </tr>
+                                
+                                
+                                <!-- Employee Title Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Title</th>
+                                    <td><input type="text" name="employeeTitle" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee Birth Date Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Birth Date</th>
+                                    <td><input type="text" name="employeeBirthDate" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee Hire Date Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Hire Date</th>
+                                    <td><input type="text" name="employeeHireDate" value="" size="50"/></td>
+                                </tr>
+                               
+                                <!-- Employee Birth Date Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Birth Date</th>
+                                    <td><input type="text" name="employeeBirthDate" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee Address Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Address</th>
+                                    <td><input type="text" name="employeeAddress" value="" size="50"/></td>
+                                </tr>
+                                
+                                 <!-- Employee City Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >City</th>
+                                    <td><input type="text" name="employeeCity" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee Region Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Region</th>
+                                    <td><input type="text" name="employeeRegion" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee Postal Code Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Postal Code</th>
+                                    <td><input type="text" name="employeePostalCode" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee Country  Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Country</th>
+                                    <td><input type="text" name="employeeCountry" value="" size="50"/></td>
+                                </tr>
+                                
+                                <!-- Employee Phone  Row -->
+                                <tr bgcolor="">
+                                    <th style="text-align: left " >Phone</th>
+                                    <td><input type="text" name="employeePhone" value="" size="50"/></td>
+                                </tr>
+                                
+                            
+                            </table>
+
+</font ><br><br><br><br><br><br>
+
+    
+   
+   Do you want to save data?
+    <input type="submit" value="Save" align-items="Center" style="font-size: 20px; color: green; padding: 10px 20px;"  />
+</form>
+</font>
+
+            <!-- Line-->
+            <hr color= green ><br>
+            <img src="images/myphoto.jpg" width="100" height="100" align="Right">
+            <font size=3>Mohamed Galal Ahmed <br>
+            📞01000000001 <br>
+            ✉️user@example.com
+            </font>
+            
+            
+
+		</body>
+</html>
